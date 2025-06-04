@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حديقة الإيمان - متجر النباتات</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">حديقة الإيمان</h1>
+            <nav class="nav">
+                <a href="#home">الرئيسية</a>
+                <a href="#products">المنتجات</a>
+                <a href="#contact">اتصل بنا</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>مرحباً بكم في حديقة الإيمان</h2>
+            <p>أفضل النباتات والزهور لمنزلك وحديقتك</p>
+            <div class="location-buttons">
+                <a href="https://maps.google.com/?q=28.353222,33.076160" target="_blank" class="map-btn google-maps">
+                    <i class="fas fa-map-marker-alt"></i>
+                    خرائط جوجل
+                </a>
+                <a href="https://maps.apple.com/?q=28.353222,33.076160" target="_blank" class="map-btn apple-maps">
+                    <i class="fas fa-map-marker-alt"></i>
+                    خرائط آبل
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section" id="products">
+        <div class="container">
+            <h2 class="section-title">منتجاتنا</h2>
+            
+            <!-- Filters Section -->
+            <div class="filters-container">
+                <div class="filter-group">
+                    <label>الفصل:</label>
+                    <select id="sessionFilter" class="filter-select">
+                        <option value="">الكل</option>
+                        <option value="شتاء">شتاء</option>
+                        <option value="صيف">صيف</option>
+                        <option value="ربيع">ربيع</option>
+                        <option value="خريف">خريف</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label>السعر:</label>
+                    <div class="price-inputs">
+                        <input type="number" id="minPrice" class="price-input" placeholder="من" min="0">
+                        <span>-</span>
+                        <input type="number" id="maxPrice" class="price-input" placeholder="إلى" min="0">
+                    </div>
+                </div>
+                
+                <div class="filter-group">
+                    <label>النوع:</label>
+                    <select id="speciesFilter" class="filter-select">
+                        <option value="">الكل</option>
+                        <option value="زينة">زينة</option>
+                        <option value="مثمرة">مثمرة</option>
+                        <option value="شجر ضل">شجر ضل</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label>الملحقات:</label>
+                    <select id="attachmentsFilter" class="filter-select">
+                        <option value="">الكل</option>
+                        <option value="حوض زرع">حوض زرع</option>
+                        <option value="سماد">سماد</option>
+                        <option value="رمل">رمل</option>
+                        <option value="none">نباتات فقط</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>حديقة الإيمان</h3>
+                    <p>متجرك المفضل للنباتات والزهور</p>
+                </div>
+                <div class="footer-section">
+                    <h3>تواصل معنا</h3>
+                    <div class="social-links">
+                        <a href="https://wa.me/201026885654" target="_blank" class="social-link whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            واتساب
+                        </a>
+                        <a href="https://facebook.com/garden.faith" target="_blank" class="social-link facebook">
+                            <i class="fab fa-facebook"></i>
+                            فيسبوك
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>الموقع</h3>
+                    <div class="location-links">
+                        <a href="https://maps.google.com/?q=28.353222,33.076160" target="_blank">
+                            <i class="fas fa-map-marker-alt"></i>
+                            خرائط جوجل
+                        </a>
+                        <a href="https://maps.apple.com/?q=28.353222,33.076160" target="_blank">
+                            <i class="fas fa-map-marker-alt"></i>
+                            خرائط آبل
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 حديقة الإيمان. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
