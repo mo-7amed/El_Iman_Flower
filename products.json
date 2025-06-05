@@ -3,8 +3,8 @@
     "id": 1,
     "name": "نبات الصبار",
     "description": "نبات صبار جميل ومقاوم للجفاف، مثالي للمبتدئين في زراعة النباتات.",
-    "price": 1000,
-    "amount": "1000",
+    "price": 70,
+    "amount": "40",
     "image": {
       "url": "imgs\\product_1.jpeg",
       "width": "300",
@@ -27,7 +27,7 @@
     "id": 2,
     "name": "نبات زينة صغير",
     "description": "نبات زينة داخلي لا يحتاج لضوء قوي، مثالي للمكاتب.",
-    "price": 500,
+    "price": 250,
     "amount": "50",
     "image": {
       "url": "imgs\\product_2.jpg",
@@ -51,7 +51,7 @@
     "id": 3,
     "name": "نبات الألوفيرا",
     "description": "نبات طبي يستخدم في التجميل، سهل العناية.",
-    "price": 1200,
+    "price": 90,
     "amount": "75",
     "image": {
       "url": "imgs\\product_3.jpg",
@@ -75,7 +75,7 @@
     "id": 4,
     "name": "شجرة ليمون صغيرة",
     "description": "شجرة مثمرة صغيرة يمكن زراعتها في أصيص.",
-    "price": 2000,
+    "price": 450,
     "amount": "30",
     "image": {
       "url": "imgs\\product_4.jpg",
@@ -99,7 +99,7 @@
     "id": 5,
     "name": "نبات النعناع",
     "description": "نبات عطري يستخدم في الطهي والمشروبات.",
-    "price": 300,
+    "price": 200,
     "amount": "120",
     "image": {
       "url": "imgs\\product_5.jpg",
@@ -123,7 +123,7 @@
     "id": 6,
     "name": "زهرة الأوركيد",
     "description": "زهرة جذابة بألوان زاهية، تزين أي مكان.",
-    "price": 1500,
+    "price": 170,
     "amount": "20",
     "image": {
       "url": "imgs\\product_6.jpg",
@@ -147,7 +147,7 @@
     "id": 7,
     "name": "نخلة داخلية",
     "description": "نبتة كبيرة الحجم تزين المساحات الواسعة.",
-    "price": 3000,
+    "price": 120,
     "amount": "10",
     "image": {
       "url": "imgs\\product_7.jpg",
@@ -171,7 +171,7 @@
     "id": 8,
     "name": "نبات اللافندر",
     "description": "نبات عطري يساعد على الاسترخاء والنوم.",
-    "price": 800,
+    "price": 400,
     "amount": "60",
     "image": {
       "url": "imgs\\product_8.jpg",
@@ -195,7 +195,7 @@
     "id": 9,
     "name": "نبات الريحان",
     "description": "نبات عشبي يستخدم في الطهي العربي والإيطالي.",
-    "price": 400,
+    "price": 50,
     "amount": "90",
     "image": {
       "url": "imgs\\product_9.jpg",
@@ -219,7 +219,7 @@
     "id": 10,
     "name": "نبات البامبو",
     "description": "نبات ديكوري يجلب الحظ حسب الثقافة الآسيوية.",
-    "price": 1100,
+    "price": 550,
     "amount": "45",
     "image": {
       "url": "imgs\\product_10.jpg",
